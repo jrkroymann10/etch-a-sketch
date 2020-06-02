@@ -1,0 +1,44 @@
+body, html {
+    height: 99%;
+    display: grid;
+    background-color: #147587;
+}
+
+.container {
+    display: inline-grid;
+    margin: auto auto auto auto;   
+    border: 7.5px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+.gridItem {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.reset {
+    height: 2rem;
+    width: auto;
+    font-size: larger;
+    opacity: 0.75;
+    background-color: #f3ece5;
+}
+
+.options {
+    display: block;
+    align-self: center;
+    text-align: center;
+}
+
+.reset:hover {
+    opacity: 1;    
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #fecb5f;
+}
+
+h1 {
+    text-align: center;
+    color: gainsboro;
+    margin-top: 25px;
+}
